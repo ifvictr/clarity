@@ -4,7 +4,7 @@
     Free to use under the GNU GPLv3
  */
 *{
-    font-family: "Arial";
+    font-family: "Arial", sans-serif;
     margin: auto;
     text-align: center;
 }
@@ -35,18 +35,30 @@ p{
     margin-top: 5%;
     width: 60%;
 }
-#social ul{
+#social {
+    position: absolute;
+    margin-top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: inherit;
     background: linear-gradient(45deg, rgba(255, 215, 82, 1) 0%, rgba(0, 128, 128, 1) 100%);
     border-radius: 20px;
-    list-style-type: none;
-    margin-top: 5%;
-    text-align: center;
-    width: 20%;
 }
-#social li, #footer li{
+#social li {
+    list-style: none;
+}
+#social ul {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+}
+#footer li{
     display: inline-block;
-    margin-right: 10px;
-    padding: 4px;
+    text-decoration: none;
 }
 .facebook:hover{
     color: #3b5998;
@@ -58,6 +70,10 @@ p{
     color: #00aced;
 }
 #footer ul{
-    margin-top: 5%;
+    position: absolute;
+    margin: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 3px;
     list-style-type: none;
 }

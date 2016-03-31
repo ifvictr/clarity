@@ -4,7 +4,11 @@ use under the **GNU GPLv3**.
 
 ###Written in:
 - CSS
-- HTML
+- HTML5
 
 ###Resources utilized:
 - FontAwesome
+
+###Contributors
+- Victor
+- Samuel (Bamuel)
