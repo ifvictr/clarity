@@ -1,0 +1,63 @@
+/*
+    Clarity by SimplyU
+    https://gamecrafter.github.io / @gamecraftervt
+    Free to use under the GNU GPLv3
+ */
+*{
+    font-family: "Arial";
+    margin: auto;
+    text-align: center;
+}
+body{
+    background: linear-gradient(222deg, rgba(120, 255, 183, 1) 0%, rgba(0, 128, 128, 1) 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover{
+    color: #a9a9a9;
+    transition: ease-in-out .4s;
+}
+p{
+    margin-top: 4px;
+}
+#avatar img{
+    border-radius: 40px;
+    display: block;
+    height: 256px;
+    margin-top: 5%;
+    width: 256px;
+}
+#content{
+    margin-top: 5%;
+    width: 60%;
+}
+#social ul{
+    background: linear-gradient(45deg, rgba(255, 215, 82, 1) 0%, rgba(0, 128, 128, 1) 100%);
+    border-radius: 20px;
+    list-style-type: none;
+    margin-top: 5%;
+    text-align: center;
+    width: 20%;
+}
+#social li, #footer li{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 4px;
+}
+.facebook:hover{
+    color: #3b5998;
+}
+.instagram:hover{
+    color: #517fa4;
+}
+.twitter:hover{
+    color: #00aced;
+}
+#footer ul{
+    margin-top: 5%;
+    list-style-type: none;
+}
