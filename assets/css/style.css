@@ -6,19 +6,23 @@
 @import url(font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Muli);
 *{
+    color: #ffffff;
     font-family: "Muli", sans-serif;
     margin: auto;
     text-align: center;
 }
+::selection{
+    background: #d3d3d3;
+}
 body{
-    background: linear-gradient(222deg, #78ffb7 0%, #008080 100%);
     background-attachment: fixed;
+    background-image: url(../../images/wallpaper.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 a{
-    color: #ffffff;
     text-decoration: none;
-    transition: ease-in-out 0.4s;
+    transition: ease-in-out 0.1s;
 }
 a:hover{
     color: #a9a9a9;
@@ -33,28 +37,28 @@ p{
     display: block;
     height: 200px;
     margin-top: 5%;
+    transition: all 1s ease;
     width: 200px;
+}
+#avatar img:hover{
+    transform: scale(1.2);
 }
 #content{
     margin-top: 3%;
     width: 60%;
 }
 #social{
-    background: linear-gradient(45deg, #ffd752 0%, #008080 100%);
-    border-radius: 20px;
     left: 50%;
     margin-top: 5%;
     position: absolute;
     transform: translate(-50%, -50%);
 }
-#social li{
-    list-style: none;
-}
 #social ul{
-    columns: 3;
-    -moz-columns: 3;
-    -webkit-columns: 3;
     padding: 3px 10px;
+}
+#social li{
+    display: inline;
+    padding: 16px;
 }
 .facebook:hover{
     color: #3b5998;
@@ -62,6 +66,15 @@ p{
 .instagram:hover{
     color: #517fa4;
 }
+.linkedin:hover{
+    color: #0077b5;
+}
+.snapchat:hover{
+    color: #fffc00;
+}
 .twitter:hover{
     color: #00aced;
+}
+.youtube:hover{
+    color: #cd201f;
 }
