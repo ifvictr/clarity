@@ -1,0 +1,67 @@
+/*
+    Clarity by SimplyU
+    https://gamecrafter.github.io / @gamecraftervt
+    Free to use under the GNU GPLv3
+ */
+@import url(font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Muli);
+*{
+    font-family: "Muli", sans-serif;
+    margin: auto;
+    text-align: center;
+}
+body{
+    background: linear-gradient(222deg, #78ffb7 0%, #008080 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+    transition: ease-in-out 0.4s;
+}
+a:hover{
+    color: #a9a9a9;
+}
+p{
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 4px;
+}
+#avatar img{
+    border-radius: 20px;
+    display: block;
+    height: 200px;
+    margin-top: 5%;
+    width: 200px;
+}
+#content{
+    margin-top: 3%;
+    width: 60%;
+}
+#social{
+    background: linear-gradient(45deg, #ffd752 0%, #008080 100%);
+    border-radius: 20px;
+    left: 50%;
+    margin-top: 5%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+#social li{
+    list-style: none;
+}
+#social ul{
+    columns: 3;
+    -moz-columns: 3;
+    -webkit-columns: 3;
+    padding: 3px 10px;
+}
+.facebook:hover{
+    color: #3b5998;
+}
+.instagram:hover{
+    color: #517fa4;
+}
+.twitter:hover{
+    color: #00aced;
+}
