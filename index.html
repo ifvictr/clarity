@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <!--
-    Clarity by SimplyU
-    https://gamecrafter.github.io / @gamecraftervt
-    Free to use under the GNU GPLv3
+Clarity by SimplyU
+https://gamecrafter.github.io / @gamecraftervt
+Free to use under the GNU GPLv3
 -->
 <html>
     <head>
@@ -23,16 +23,27 @@
                 fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
                 mollit anim id est laborum.
             </p>
+            <p>
+                Nam convallis lacinia massa, nec luctus est convallis eu. Integer condimentum varius odio non auctor. Sed
+                finibus tristique consequat. Quisque euismod interdum cursus. Maecenas non lobortis sem. Fusce ac cursus massa.
+                Aliquam felis felis, venenatis sed justo nec, tempor pretium urna. Pellentesque aliquam vulputate dapibus.
+                Fusce nunc purus, feugiat ut commodo eget, iaculis eget ipsum.
+            </p>
         </div>
         <div id="social">
             <ul>
-                <li><a href="#" class="fa fa-facebook fa-3x facebook"></a></li>
-                <li><a href="#" class="fa fa-instagram fa-3x instagram"></a></li>
-                <li><a href="#" class="fa fa-linkedin fa-3x linkedin"></a></li>
-                <li><a href="#" class="fa fa-snapchat-ghost fa-3x snapchat"></a></li>
-                <li><a href="#" class="fa fa-twitter fa-3x twitter"></a></li>
-                <li><a href="#" class="fa fa-youtube-play fa-3x youtube"></a></li>
+                <li><a href="#" class="icon fa fa-facebook fa-3x facebook"></a></li>
+                <li><a href="#" class="icon fa fa-instagram fa-3x instagram"></a></li>
+                <li><a href="#" class="icon fa fa-linkedin fa-3x linkedin"></a></li>
+                <li><a href="#" class="icon fa fa-snapchat-ghost fa-3x snapchat"></a></li>
+                <li><a href="#" class="icon fa fa-twitter fa-3x twitter"></a></li>
+                <li><a href="#" class="icon fa fa-youtube-play fa-3x youtube"></a></li>
             </ul>
         </div>
     </body>
+    <script>
+        document.onmousemove = function(event){
+            document.body.style.backgroundPosition = ((event.pageX * -1) / 20)+"px "+((event.pageY * -1) / 20)+"px";
+        };
+    </script>
 </html>

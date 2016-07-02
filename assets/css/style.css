@@ -1,7 +1,7 @@
 /*
-    Clarity by SimplyU
-    https://gamecrafter.github.io / @gamecraftervt
-    Free to use under the GNU GPLv3
+ * Clarity by SimplyU
+ * https://gamecrafter.github.io / @gamecraftervt
+ * Free to use under the GNU GPLv3
  */
 @import url(font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Muli);
@@ -18,13 +18,14 @@ body{
     background-attachment: fixed;
     background-image: url(../../images/wallpaper.png);
     background-repeat: no-repeat;
-    background-size: cover;
 }
 a{
+    border-bottom: 1px dotted;
     text-decoration: none;
-    transition: ease-in-out 0.1s;
+    transition: color 0.3s ease-in-out, border-bottom-color 0.3s ease-in-out;
 }
 a:hover{
+    border-bottom: transparent;
     color: #a9a9a9;
 }
 p{
@@ -60,11 +61,14 @@ p{
     display: inline;
     padding: 16px;
 }
+.icon{
+    border-bottom: none;
+}
 .facebook:hover{
     color: #3b5998;
 }
 .instagram:hover{
-    color: #517fa4;
+    color: #8a3ab9;
 }
 .linkedin:hover{
     color: #0077b5;
