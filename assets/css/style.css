@@ -41,9 +41,6 @@ p{
     transition: all 1s ease;
     width: 200px;
 }
-#avatar img:hover{
-    transform: scale(1.2);
-}
 #content{
     margin-top: 3%;
     width: 60%;
@@ -63,6 +60,11 @@ p{
 }
 .icon{
     border-bottom: none;
+    font-family: "FontAwesome";
+    font-style: normal;
+    text-rendering: auto;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
 }
 .facebook:hover{
     color: #3b5998;
