@@ -1,13 +1,13 @@
 /*
- * Clarity by SimplyU
- * https://gamecrafter.github.io / @gamecraftervt
- * Free to use under the GNU GPLv3
+ * Clarity by ifvictr
+ * https://ifvictr.github.io / @ifvictr
+ * Free to use under the MIT license
  */
 @import url(font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Muli);
 *{
     color: #ffffff;
-    font-family: "Muli", sans-serif;
+    font-family: Muli, sans-serif;
     margin: auto;
     text-align: center;
 }
@@ -18,6 +18,10 @@ body{
     background-attachment: fixed;
     background-image: url(../../images/wallpaper.png);
     background-repeat: no-repeat;
+    color: #ffffff;
+    font-family: "Muli", sans-serif;
+    margin: auto;
+    text-align: center;
 }
 a{
     border-bottom: 1px dotted;
@@ -35,11 +39,8 @@ p{
 }
 #avatar img{
     border-radius: 20px;
-    display: block;
     height: 200px;
     margin-top: 5%;
-    transition: all 1s ease;
-    width: 200px;
 }
 #content{
     margin-top: 3%;
@@ -55,12 +56,12 @@ p{
     padding: 3px 10px;
 }
 #social li{
-    display: inline;
+    display: inline-block;
     padding: 16px;
 }
 .icon{
     border-bottom: none;
-    font-family: "FontAwesome";
+    font-family: FontAwesome;
     font-style: normal;
     text-rendering: auto;
     -moz-osx-font-smoothing: grayscale;
